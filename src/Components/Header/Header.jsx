@@ -22,7 +22,7 @@ const Header = () => {
         <h1>Hi There!&nbsp; <span class="wave">👋🏻</span></h1>
         <h1>
             I'M&nbsp;
-            <strong class="main-name">Laksh Patil</strong>
+            <strong class="main-name">Laksh Patil...</strong>
         </h1>
         <h3 className='typewriter'>{text}</h3>
       </div>
