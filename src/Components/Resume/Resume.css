@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.purple{
+    color:#14ffec ;
+}
+
+.resume-container{
+    width: 100%;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* gap: 5px; */
+   flex-wrap: wrap;
+   color: #f5f5f5;
+   padding: 20px 15%;
+   margin-top: 150px;
+   flex-direction: column;
+}
+
+.download-resume{
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    background-color: #00c5b4;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    display: flex;
+    gap: 5PX;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    cursor: pointer;
+    margin-bottom: 10px;
+    
+}
+
+.download-resume:hover{
+    color: #fff !important;
+background-color: #00ecd8 !important;
+border-color: #00ecd8;
+}
+
+.resume-title{
+    font-size: 2em;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+.resume-left-right-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.resume-left{
+    width: 40%;
+}
+.resume-right{
+    width: 40%;
+}
+
+.resume-item{
+    padding: 0 0 20px 25px;
+    margin-top: -2px;
+    border-left: 2px solid #14ffec;
+    position: relative;
+    
+}
+.resume-item:before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #14ffec;
+}
+    
+.resume-item-title{
+    line-height: 18px;
+    font-size: .9em;
+    background: #009d90;
+    padding: 8px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.resume-item p{
+    margin-bottom: 20px;
+}
+
+.resume-item ul{
+    padding-left: 20px;
+    text-align: justify;
+    
+}
+
+.resume-item ul li{
+    padding-bottom: 10px;
+    list-style: none;
+    text-align: left;
+}
+
+
+@media (max-width:1024px) {
+    .resume-container{
+        padding: 80px 10%;
+    }
+       
+}
+
+@media (max-width:768px) {
+    .resume-container{
+        padding: 80px 10%;
+    }   
+}
+@media (max-width:767px) {
+    
+    .resume-left-right-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* padding: 10px 10%; */
+    }   
+    .resume-left{
+        width: 100%;
+    }
+    .resume-right{
+        width: 100%;
+    }
+}
+
+@media (max-width:428px) {
+    .resume-container{
+        padding: 10px 10%;
+        
+    } 
+}
